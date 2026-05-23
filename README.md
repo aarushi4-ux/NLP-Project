@@ -119,5 +119,3 @@ Outputs a token-level table of all 7 metric scores and an overall hallucination 
 ## Key Output File
 
 `exp1_2_results.pt` is the central artifact produced by Exp 1 & 2. It contains fitted metric parameters (Mahalanobis μ/Σ, PCA components, CIE top layers), per-sample and per-token scores, normalisation constants, and layer profiles. All downstream experiments (3–8) and the demo load from this file — **do not re-fit on HaluEval or any other dataset**.
-
-# NLP-Project
