@@ -6,8 +6,8 @@ A representation-based hallucination detection framework for RAG (Retrieval-Augm
 
 ## Datasets
 
-- **RAGTruth** — [github.com/ParakweetLab/RAGTruth](https://github.com/ParakweetLab/RAGTruth): a benchmark of LLM responses to RAG prompts with fine-grained hallucination span annotations. response.jsonl and source.jsonl sepcifically used for training, evaluation, and all core experiments (Exp 1–4, 6–8).
-- **HaluEval** — [github.com/RUCAIBox/HaluEval](https://github.com/RUCAIBox/HaluEval): a large-scale hallucination evaluation dataset covering QA, summarisation, and dialogue. general_data.json specifically used in Exp 5 for cross-domain zero-shot transfer.
+- **RAGTruth** — [github.com/ParticleMedia/RAGTruth](https://github.com/ParticleMedia/RAGTruth): a benchmark of LLM responses to RAG prompts with fine-grained hallucination span annotations. `response.jsonl` and `source_info.jsonl` sepcifically used for training, evaluation, and all core experiments (Exp 1–4, 6–8).
+- **HaluEval** — [github.com/RUCAIBox/HaluEval](https://github.com/RUCAIBox/HaluEval): a large-scale hallucination evaluation dataset covering QA, summarisation, and dialogue. `general_data.json` specifically used in Exp 5 for cross-domain zero-shot transfer.
 
 ---
 
